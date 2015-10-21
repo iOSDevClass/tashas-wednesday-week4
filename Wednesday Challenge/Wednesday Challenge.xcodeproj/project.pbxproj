@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D843AF441BD8066C008EB98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D843AF431BD8066C008EB98C /* main.m */; };
+		D843AF471BD8066C008EB98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D843AF461BD8066C008EB98C /* AppDelegate.m */; };
+		D843AF4A1BD8066C008EB98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D843AF491BD8066C008EB98C /* ViewController.m */; };
+		D843AF4D1BD8066C008EB98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D843AF4B1BD8066C008EB98C /* Main.storyboard */; };
+		D843AF4F1BD8066C008EB98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D843AF4E1BD8066C008EB98C /* Assets.xcassets */; };
+		D843AF521BD8066C008EB98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D843AF501BD8066C008EB98C /* LaunchScreen.storyboard */; };
+		D843AF5D1BD8066C008EB98C /* Wednesday_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D843AF5C1BD8066C008EB98C /* Wednesday_ChallengeTests.m */; };
+		D843AF681BD8066C008EB98C /* Wednesday_ChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D843AF671BD8066C008EB98C /* Wednesday_ChallengeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D843AF591BD8066C008EB98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D843AF371BD8066C008EB98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D843AF3E1BD8066C008EB98C;
+			remoteInfo = "Wednesday Challenge";
+		};
+		D843AF641BD8066C008EB98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D843AF371BD8066C008EB98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D843AF3E1BD8066C008EB98C;
+			remoteInfo = "Wednesday Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D843AF3F1BD8066C008EB98C /* Wednesday Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wednesday Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D843AF431BD8066C008EB98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D843AF451BD8066C008EB98C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D843AF461BD8066C008EB98C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D843AF481BD8066C008EB98C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D843AF491BD8066C008EB98C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D843AF4C1BD8066C008EB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D843AF4E1BD8066C008EB98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D843AF511BD8066C008EB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D843AF531BD8066C008EB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D843AF581BD8066C008EB98C /* Wednesday ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wednesday ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D843AF5C1BD8066C008EB98C /* Wednesday_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wednesday_ChallengeTests.m; sourceTree = "<group>"; };
+		D843AF5E1BD8066C008EB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D843AF631BD8066C008EB98C /* Wednesday ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wednesday ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D843AF671BD8066C008EB98C /* Wednesday_ChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wednesday_ChallengeUITests.m; sourceTree = "<group>"; };
+		D843AF691BD8066C008EB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D843AF3C1BD8066C008EB98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF551BD8066C008EB98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF601BD8066C008EB98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D843AF361BD8066C008EB98C = {
+			isa = PBXGroup;
+			children = (
+				D843AF411BD8066C008EB98C /* Wednesday Challenge */,
+				D843AF5B1BD8066C008EB98C /* Wednesday ChallengeTests */,
+				D843AF661BD8066C008EB98C /* Wednesday ChallengeUITests */,
+				D843AF401BD8066C008EB98C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D843AF401BD8066C008EB98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D843AF3F1BD8066C008EB98C /* Wednesday Challenge.app */,
+				D843AF581BD8066C008EB98C /* Wednesday ChallengeTests.xctest */,
+				D843AF631BD8066C008EB98C /* Wednesday ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D843AF411BD8066C008EB98C /* Wednesday Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D843AF451BD8066C008EB98C /* AppDelegate.h */,
+				D843AF461BD8066C008EB98C /* AppDelegate.m */,
+				D843AF481BD8066C008EB98C /* ViewController.h */,
+				D843AF491BD8066C008EB98C /* ViewController.m */,
+				D843AF4B1BD8066C008EB98C /* Main.storyboard */,
+				D843AF4E1BD8066C008EB98C /* Assets.xcassets */,
+				D843AF501BD8066C008EB98C /* LaunchScreen.storyboard */,
+				D843AF531BD8066C008EB98C /* Info.plist */,
+				D843AF421BD8066C008EB98C /* Supporting Files */,
+			);
+			path = "Wednesday Challenge";
+			sourceTree = "<group>";
+		};
+		D843AF421BD8066C008EB98C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D843AF431BD8066C008EB98C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D843AF5B1BD8066C008EB98C /* Wednesday ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D843AF5C1BD8066C008EB98C /* Wednesday_ChallengeTests.m */,
+				D843AF5E1BD8066C008EB98C /* Info.plist */,
+			);
+			path = "Wednesday ChallengeTests";
+			sourceTree = "<group>";
+		};
+		D843AF661BD8066C008EB98C /* Wednesday ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D843AF671BD8066C008EB98C /* Wednesday_ChallengeUITests.m */,
+				D843AF691BD8066C008EB98C /* Info.plist */,
+			);
+			path = "Wednesday ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D843AF3E1BD8066C008EB98C /* Wednesday Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D843AF6C1BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday Challenge" */;
+			buildPhases = (
+				D843AF3B1BD8066C008EB98C /* Sources */,
+				D843AF3C1BD8066C008EB98C /* Frameworks */,
+				D843AF3D1BD8066C008EB98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wednesday Challenge";
+			productName = "Wednesday Challenge";
+			productReference = D843AF3F1BD8066C008EB98C /* Wednesday Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D843AF571BD8066C008EB98C /* Wednesday ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D843AF6F1BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday ChallengeTests" */;
+			buildPhases = (
+				D843AF541BD8066C008EB98C /* Sources */,
+				D843AF551BD8066C008EB98C /* Frameworks */,
+				D843AF561BD8066C008EB98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D843AF5A1BD8066C008EB98C /* PBXTargetDependency */,
+			);
+			name = "Wednesday ChallengeTests";
+			productName = "Wednesday ChallengeTests";
+			productReference = D843AF581BD8066C008EB98C /* Wednesday ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D843AF621BD8066C008EB98C /* Wednesday ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D843AF721BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday ChallengeUITests" */;
+			buildPhases = (
+				D843AF5F1BD8066C008EB98C /* Sources */,
+				D843AF601BD8066C008EB98C /* Frameworks */,
+				D843AF611BD8066C008EB98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D843AF651BD8066C008EB98C /* PBXTargetDependency */,
+			);
+			name = "Wednesday ChallengeUITests";
+			productName = "Wednesday ChallengeUITests";
+			productReference = D843AF631BD8066C008EB98C /* Wednesday ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D843AF371BD8066C008EB98C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D843AF3E1BD8066C008EB98C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+					};
+					D843AF571BD8066C008EB98C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D843AF3E1BD8066C008EB98C;
+					};
+					D843AF621BD8066C008EB98C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D843AF3E1BD8066C008EB98C;
+					};
+				};
+			};
+			buildConfigurationList = D843AF3A1BD8066C008EB98C /* Build configuration list for PBXProject "Wednesday Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D843AF361BD8066C008EB98C;
+			productRefGroup = D843AF401BD8066C008EB98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D843AF3E1BD8066C008EB98C /* Wednesday Challenge */,
+				D843AF571BD8066C008EB98C /* Wednesday ChallengeTests */,
+				D843AF621BD8066C008EB98C /* Wednesday ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D843AF3D1BD8066C008EB98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D843AF521BD8066C008EB98C /* LaunchScreen.storyboard in Resources */,
+				D843AF4F1BD8066C008EB98C /* Assets.xcassets in Resources */,
+				D843AF4D1BD8066C008EB98C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF561BD8066C008EB98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF611BD8066C008EB98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D843AF3B1BD8066C008EB98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D843AF4A1BD8066C008EB98C /* ViewController.m in Sources */,
+				D843AF471BD8066C008EB98C /* AppDelegate.m in Sources */,
+				D843AF441BD8066C008EB98C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF541BD8066C008EB98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D843AF5D1BD8066C008EB98C /* Wednesday_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D843AF5F1BD8066C008EB98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D843AF681BD8066C008EB98C /* Wednesday_ChallengeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D843AF5A1BD8066C008EB98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D843AF3E1BD8066C008EB98C /* Wednesday Challenge */;
+			targetProxy = D843AF591BD8066C008EB98C /* PBXContainerItemProxy */;
+		};
+		D843AF651BD8066C008EB98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D843AF3E1BD8066C008EB98C /* Wednesday Challenge */;
+			targetProxy = D843AF641BD8066C008EB98C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D843AF4B1BD8066C008EB98C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D843AF4C1BD8066C008EB98C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D843AF501BD8066C008EB98C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D843AF511BD8066C008EB98C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D843AF6A1BD8066C008EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D843AF6B1BD8066C008EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D843AF6D1BD8066C008EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wednesday Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D843AF6E1BD8066C008EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wednesday Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D843AF701BD8066C008EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wednesday ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wednesday Challenge.app/Wednesday Challenge";
+			};
+			name = Debug;
+		};
+		D843AF711BD8066C008EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wednesday ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wednesday Challenge.app/Wednesday Challenge";
+			};
+			name = Release;
+		};
+		D843AF731BD8066C008EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wednesday ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wednesday Challenge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D843AF741BD8066C008EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wednesday ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitlore.Wednesday-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wednesday Challenge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D843AF3A1BD8066C008EB98C /* Build configuration list for PBXProject "Wednesday Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843AF6A1BD8066C008EB98C /* Debug */,
+				D843AF6B1BD8066C008EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D843AF6C1BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843AF6D1BD8066C008EB98C /* Debug */,
+				D843AF6E1BD8066C008EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D843AF6F1BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843AF701BD8066C008EB98C /* Debug */,
+				D843AF711BD8066C008EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D843AF721BD8066C008EB98C /* Build configuration list for PBXNativeTarget "Wednesday ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D843AF731BD8066C008EB98C /* Debug */,
+				D843AF741BD8066C008EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D843AF371BD8066C008EB98C /* Project object */;
+}
